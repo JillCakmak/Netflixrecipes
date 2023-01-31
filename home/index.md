@@ -1,9 +1,10 @@
 ---
+title: Netflix Cooking
+coverimage: ../uploads/images.png
+permalink: /
 layout: recipeshome
-title: Here is the name of your recipe site
-permalink: "/"
-coverimage: ../uploads/bookcover.jpg
 published: true
+date: 2023-01-31T14:59:45.887Z
 ---
 
 Here is an introduction to my recipe site
