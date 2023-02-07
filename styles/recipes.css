@@ -67,6 +67,12 @@ img{
 
 }
 
+ol{
+  margin-left: 25px;
+  text-align: justify;
+  margin-right: 30px;
+}
+
 .caption {
 text-align: right;
 display: block;
