@@ -1,80 +1,178 @@
 /*! CSS bare bones for recipes site */
 
- html {
+
+html {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-
-*  {
+  color: black;
+ }
+ 
+ 
+ *  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ }
+ 
+ 
+ /* the rest is up to you */
+
+header {
+  text-align: center;
+  background-color: black;
+  position:fixed;
+  top: 0; 
+  width:100%; 
+  height: 6em; 
 }
 
-/* the rest is up to you */
-
-body{
-  background-color: bisque;
+footer {
+  text-align: right;
+  background-color: black;
+  position:fixed;
+  bottom: 0; 
+  width:100%; 
+  height: 3em; 
+  
 }
-h1 {
-  color:rgb(229, 9, 20);
+
+footer p {
+  color: white;
+  text-align: center;
+}
+ 
+ 
+ h1 {
+  color:rgb(229, 0, 0);
  text-align: center;
   margin-bottom: 25px;
   margin-top: 25px;
+  text-shadow: rgb (131, 16, 16);
+  font-size: 40px;
+ 
+ }
+ .recipehome p {
+  font-size: 100px; 
+ 
+ }
+
+ .recipeshome main p { 
+font-size: 30px; 
+text-align: center;
+
+ }
+button{ 
+  width: 50%;
+  margin: 50px auto;
+  display: block;
+ background-color:red; 
+ font-size: 30px;
+
+
+}
+button a { 
+
+  color: white;
 }
 
-h2 {
-  color: rgb(20, 20, 68);
+ .recipeslist h1 a { 
+  font-size: 30px;
+
+ }
+
+
+ .recipe main img:first-child{
+  float:none;
+  width: 100%;
+
+ }
+/* 
+ p:has(img) {
+
+  width:50%; 
+  float:right;
+ } */
+
+ a {
+  text-decoration: none;
+  color:red;
+ }
+
+ h1 a:hover {
+  color:rgb(0, 0, 0);
+ 
+  }
+ header h1 a:hover {
+  color:white;
+ }
+ h2 {
+  color: rgb(255, 255, 255);
   margin: 15px 15px 15px 15px;
 
-}
 
-ul {
+ }
+ 
+ 
+ ul {
   margin-left:25px;
-  columns: 2; 
+  columns: 2;
   column-rule:  rgb(5, 5, 47);
   margin-right: 30px;
   font-size: larger;
   font-weight: 400;
+  margin-bottom: 15px;
+ }
  
-}
-
-li{
-
+ 
+ li{
+ 
   font-size: smaller;
-  margin-bottom: 12px; 
-}
-
-p {
-text-align: justify;
-}
-
-main{
+  margin-bottom: 30px;
+  margin-top: 20px;
+ }
+ 
+ 
+ p {
+ text-align: justify;
+ }
+ 
+ 
+ main{
   width: 80%;
-  max-width: 850px; 
+  max-width: 850px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
-  background-color: white;
-}
+  background-color: rgb(255, 255, 255);
+  background-blend-mode:saturation;
+  padding-bottom: 4em;
+ }
+ body{
+  background-image: url("../uploads/aurel-serban-VQ3BI-Ggtao-unsplash.jpg");
+  margin-top: 8em;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-img{
-
+ }
+ 
+ img{
   width:100%;
   margin-top:15px;
-  margin-left: 15px;
   float:right;
-
-}
-
-ol{
+ }
+ 
+ 
+ ol{
   margin-left: 25px;
   text-align: justify;
   margin-right: 30px;
-}
-
-.caption {
-text-align: right;
-display: block;
-font-size: .8em;
-}
+ }
+ 
+ 
+ .caption {
+ text-align: right;
+ display: block;
+ font-size: .8em;
+ }
+ 
+ 
