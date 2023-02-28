@@ -77,16 +77,27 @@ button a {
 }
 
  .recipeslist h1 a { 
-  font-size: 30px;
-
+  font-size: 60px;
  }
 
-
+ .recipe-teaser {
+  border: 1px solid black;
+  flex-basis:300px;
+  flex-grow: 1; 
+  padding: 1em; 
+  margin: 1em; 
+ }
+.list{ 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* 
  .recipe main img:first-child{
   float:none;
   width: 100%;
 
- }
+ } */
 /* 
  p:has(img) {
 
@@ -119,7 +130,6 @@ button a {
   columns: 2;
   column-rule:  rgb(5, 5, 47);
   margin-right: 30px;
-  font-size: larger;
   font-weight: 400;
   margin-bottom: 15px;
  }
@@ -127,7 +137,7 @@ button a {
  
  li{
  
-  font-size: smaller;
+  /* font-size: smaller; */
   margin-bottom: 30px;
   margin-top: 20px;
  }
@@ -175,4 +185,41 @@ button a {
  font-size: .8em;
  }
  
+ #ingredients {
+  color: red;
+ }
+ #methods {
+  color: red;
+  font-size: larger;
+ }
+ nav {
+  margin:0; 
+  position: fixed;
+  width: 100%;
+  border: 1px solid red;
+  padding-top: 6em;
+}
+
+ @media screen and (max-width:700px) {
+  nav {
+    margin:0; 
+    position: static;
+    width: 100%;
+    border: 1px solid red;
+    padding-top: 6em;
+  }
+
+  nav ul {
+    font-size: 1em; 
+  }
+  main { 
+    width: 100%;
+  }
+  body{ 
+    padding-top: 5em; 
+    background-image: url("../uploads/aurel-serban-VQ3BI-Ggtao-unsplash.jpg");
+  }
+footer { 
+  bottom: 0; 
+}
  
