@@ -106,7 +106,8 @@ button a {
  h2 {
   color: black;
   margin: 15px 15px 15px 15px;
-  font-size: 50px;
+  font-size: 35px;
+  text-align: center;
 
  }
  
@@ -131,6 +132,7 @@ button a {
  
  p {
  text-align: justify;
+
  }
  
  
@@ -144,7 +146,8 @@ button a {
   padding-bottom: 4em;
  }
  .recipelist main {
-  opacity: 0.8;
+
+  background-color: rgba(250, 12, 12, 0);
  }
 
  .recipeslist h1 a { 
